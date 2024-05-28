@@ -3,7 +3,7 @@
 import os
 from setuptools import setup, find_packages
 
-with open(os.path.join(os.path.split(__file__)[0], "readme.md"), "r", encoding='utf8') as fh:
+with open('./readme.md', "r", encoding='utf8') as fh:
     long_description = fh.read()
 
 setup(
